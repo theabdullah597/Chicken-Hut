@@ -8,7 +8,7 @@ function Footer() {
           <div className="footer-brand">
             <img src="/logo.png" alt="Chicken Hurt logo" />
             <div>
-              <h3>Chicken Hut</h3>
+              <h3>Chicken Hut Uk</h3>
               <p>10 Finkle St, Kendal LA9 4AB</p>
               <a href="tel:+44 20 8211 9054">+44 20 8211 9054</a>
             </div>
