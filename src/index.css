@@ -56,8 +56,8 @@ a {
 }
 
 .logo-box {
-  width: 72px;
-  height: 72px;
+  width: clamp(72px, 12vw, 96px);
+  height: clamp(72px, 12vw, 96px);
   border: none;
   background: transparent;
   border-radius: 0;
@@ -80,8 +80,8 @@ a {
 }
 
 .logo-box img {
-  width: 72px;
-  height: 72px;
+  width: clamp(72px, 12vw, 96px);
+  height: clamp(72px, 12vw, 96px);
   display: block;
   object-fit: contain;
   object-position: center;

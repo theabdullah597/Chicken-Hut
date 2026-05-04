@@ -23,7 +23,13 @@ const categoryKeyMap = {
 
 function toBaseName(name) {
   // Groups size variants like "10inch Margherita Pizza" under "Margherita Pizza"
-  return name.replace(/^\d+\s*inch\s*/i, "").trim();
+  const base = name.replace(/^\d+\s*inch\s*/i, "").trim();
+
+  // Data has a small inconsistency: "14inch Half And Half" (missing "Pizza")
+  // should group with "Half And Half Pizza".
+  if (/^half\s+and\s+half$/i.test(base)) return "Half And Half Pizza";
+
+  return base;
 }
 
 function variantSortKey(name) {
