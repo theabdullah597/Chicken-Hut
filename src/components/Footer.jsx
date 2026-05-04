@@ -41,7 +41,7 @@ function Footer() {
               <Link to="/register">Register</Link>
             </li>
             <li>
-              <a href="mailto:info@chickenhutkendal.com">Email Support</a>
+              <a href="mailto:contact@chickenhutuk.com.com">Email Support</a>
             </li>
             <li>
               <a

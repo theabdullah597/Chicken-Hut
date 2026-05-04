@@ -3,12 +3,12 @@ import emailjs from "@emailjs/browser";
 import { useLocation } from "react-router-dom";
 
 const RESTAURANT_EMAIL = "contact@chickenhutuk.com";
-const RESTAURANT_PHONE = "01539 732111";
+const RESTAURANT_PHONE = "+44 20 8211 9054";
 
 function buildMailtoUrl({ toEmail, subject, body }) {
   const qs = new URLSearchParams({
     subject: subject || "Order request from website",
-    body: body || ""
+    body: body || "",
   });
   return `mailto:${toEmail}?${qs.toString()}`;
 }
@@ -24,7 +24,9 @@ function Contact() {
     const selectedItem = location.state?.selectedItem;
     if (selectedItem) {
       setSubject(`Order request: ${selectedItem}`);
-      setMessage(`Hi, I would like to place an order for:\n- ${selectedItem}\n\nDelivery Address: 10 Finkle St, Kendal LA9 4AB`);
+      setMessage(
+        `Hi, I would like to place an order for:\n- ${selectedItem}\n\nDelivery Address: 10 Finkle St, Kendal LA9 4AB`,
+      );
     }
   }, [location.state]);
 
@@ -46,9 +48,11 @@ function Contact() {
         `Phone: ${phone}\n\n` +
         `${message}`;
 
-      setStatus("Email service is not configured in the website yet. Opening your email app...");
+      setStatus(
+        "Email service is not configured in the website yet. Opening your email app...",
+      );
       window.location.assign(
-        buildMailtoUrl({ toEmail: RESTAURANT_EMAIL, subject, body })
+        buildMailtoUrl({ toEmail: RESTAURANT_EMAIL, subject, body }),
       );
       return;
     }
@@ -68,7 +72,7 @@ function Contact() {
     <section className="section auth-wrap">
       <h2>Contact &amp; Place Order</h2>
       <p>
-        Fill this form to place your order. It sends directly to Chicken Hut.
+        Fill this form to place your order. It sends directly to Chicken Hut Uk.
       </p>
 
       <div className="contact-info">

@@ -5,7 +5,7 @@ const deliverySchedule = [
   ["Thursday", "16:30:00 - 22:30:00"],
   ["Friday", "16:30:00 - 22:30:00"],
   ["Saturday", "16:30:00 - 22:30:00"],
-  ["Sunday", "16:30:00 - 22:30:00"]
+  ["Sunday", "16:30:00 - 22:30:00"],
 ];
 
 const collectionSchedule = [
@@ -15,7 +15,7 @@ const collectionSchedule = [
   ["Thursday", "11:00:00 - 22:30:00"],
   ["Friday", "11:00:00 - 22:30:00"],
   ["Saturday", "14:00:00 - 22:30:00"],
-  ["Sunday", "11:00:00 - 23:00:00"]
+  ["Sunday", "11:00:00 - 23:00:00"],
 ];
 
 function About() {
@@ -25,9 +25,9 @@ function About() {
         <div className="menu-hero-left">
           <div className="menu-cover-img" />
           <div>
-            <h2>Chicken Hut</h2>
+            <h2>Chicken Hut Uk</h2>
             <p>10 Finkle St, Kendal LA9 4AB</p>
-            <p>01539732111</p>
+            <p>+44 20 8211 9054</p>
             <div className="menu-stats">
               <div>
                 <strong>5.0</strong>
@@ -82,11 +82,14 @@ function About() {
           <h2>Contact us</h2>
           <div className="about-lines">
             <p>
-              Email Us <a href="mailto:info@chickenhutkendal.com">info@chickenhutkendal.com</a>
+              Email Us{" "}
+              <a href="mailto:info@chickenhutkendal.com">
+                info@chickenhutkendal.com
+              </a>
             </p>
             <p>Chicken Hurt Support</p>
             <p>
-              <a href="tel:01539732111">01539732111</a>
+              <a href="tel:+44 20 8211 9054">+44 20 8211 9054</a>
             </p>
           </div>
 
@@ -101,9 +104,10 @@ function About() {
               <small>11:25 am Tuesday 10th September 2024</small>
             </div>
             <p>
-              Absolutely fantasic. I haven't consumed anything but Chicken Hut for several moons now.
-              The chicken on the bone itself is enough to keep the place going, and the garlic mayo
-              washes down nicely. The chips are also well sliced and beautifully seasoned.
+              Absolutely fantasic. I haven't consumed anything but Chicken Hut
+              Uk for several moons now. The chicken on the bone itself is enough
+              to keep the place going, and the garlic mayo washes down nicely.
+              The chips are also well sliced and beautifully seasoned.
             </p>
             <div className="ratings">
               <span>Quality ★★★★★</span>
@@ -118,8 +122,8 @@ function About() {
               <small>09:53 pm Wednesday 26th June 2024</small>
             </div>
             <p>
-              I have just ordered some food to 11 Anchorite fields it’s come but my milkshake and my
-              can of 7 up has not.
+              I have just ordered some food to 11 Anchorite fields it’s come but
+              my milkshake and my can of 7 up has not.
             </p>
             <div className="ratings">
               <span>Quality ★★★★★</span>

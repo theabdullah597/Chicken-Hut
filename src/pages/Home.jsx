@@ -108,7 +108,7 @@ function Home() {
       </section>
 
       <section className="welcome-cards section section-flat">
-        <h3 className="script-heading">Welcome to CHICKEN HUT</h3>
+        <h3 className="script-heading">Welcome to CHICKEN HUT Uk</h3>
         <p className="welcome-address">10 Finkle St, Kendal LA9 4AB</p>
         <div className="welcome-grid icons">
           {welcomeSteps.map((step) => (
@@ -127,7 +127,7 @@ function Home() {
         <div className="overlay">
           <h3 className="script-heading light">About Us</h3>
           <p>
-            CHICKEN HUT, located at 10 Finkle St, Kendal LA9 4AB, is dedicated
+            CHICKEN HUT Uk, located at 10 Finkle St, Kendal LA9 4AB, is dedicated
             to offering great value, high-quality food, and excellent customer
             service. We continuously strive to improve our services to ensure a
             better experience for our customers.
@@ -153,7 +153,7 @@ function Home() {
         </h3>
         <p>
           Exciting Hot Deals on every dish from Pizzas to Fried Chicken to Wraps
-          to Burgers, all are zestfully available at CHICKEN HUT ..Order online
+          to Burgers, all are zestfully available at CHICKEN HUT Uk ..Order online
           to get a swift delivery on time OR step in at
         </p>
       </section>
@@ -182,7 +182,7 @@ function Home() {
         <h3 className="script-heading light">What People Say</h3>
         <div className="review-avatar">👤</div>
         <p>
-          Absolutely fantasic. I haven't consumed anything but Chicken Hut for
+          Absolutely fantasic. I haven't consumed anything but Chicken Hut Uk for
           several moons now. The chicken on the bone itself is enough to keep
           the place going, and the garlic mayo washes down nicely; The chips are
           also well sliced and beautifully seasoned.
@@ -190,7 +190,7 @@ function Home() {
         <p>
           I would recommmend to friends and family, even the pets love dining
           alongside. Brilliant. Absolutely fantasic. I haven't consumed anything
-          but Chicken Hut for several moons now. The chicken on the bone itself
+          but Chicken Hut Uk for several moons now. The chicken on the bone itself
           is enough to keep the place going, and the garlic mayo washes down
           nicely; The chips are also well sliced and beautifully seasoned. I
           would recommmend to friends and family, even the pets love dining

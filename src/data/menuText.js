@@ -1,7 +1,7 @@
 export const menuIntro = [
-  "CHICKEN HUT",
+  "CHICKEN HUT Uk",
   "10 Finkle St, Kendal LA9 4AB",
-  "01539732111",
+  "+44 20 8211 9054",
   "5.0",
   "2+ ratings",
   "45 MINS Delivery Time",
