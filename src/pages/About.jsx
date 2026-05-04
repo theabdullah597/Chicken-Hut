@@ -83,9 +83,7 @@ function About() {
           <div className="about-lines">
             <p>
               Email Us{" "}
-              <a href="mailto:info@chickenhutkendal.com">
-                info@chickenhutkendal.com
-              </a>
+              <a href="mailto:info@chickenhut.com">info@chickenhutuk.com</a>
             </p>
             <p>Chicken Hurt Support</p>
             <p>
