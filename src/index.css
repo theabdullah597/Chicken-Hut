@@ -80,9 +80,9 @@ a {
 }
 
 .logo-box img {
-  /* width: clamp(72px, 12vw, 96px);
-  height: clamp(72px, 12vw, 96px); */
-  max-width: 95px;
+  width: clamp(72px, 12vw, 96px);
+  height: clamp(72px, 12vw, 96px);
+  /* max-width: 95px; */
   display: block;
   object-fit: contain;
   object-position: center;
@@ -884,7 +884,7 @@ hr {
   width: 74px;
   height: 74px;
   object-fit: contain;
-  background: #fff;
+  /* background: #fff; */
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 14px;
   padding: 6px;
